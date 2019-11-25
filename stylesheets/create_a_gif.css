@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+.picture-frame {
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+
+.picture-frame > img {
+    height: 100%;
+}
+
+.picture-frame > h1 {
+    position: absolute;
+    bottom: 0;
+    left: 25px;
+    color: white;
+}
