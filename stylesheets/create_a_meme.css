@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+.picture-frame {
+    height: 700px;
+    width: 700px;
+    position: relative;
+}
+
+.picture-frame > img {
+    height: 100%;
+}
+
+h1 {
+    color: wheat;
+    position: absolute;
+    top: 0;
+    font-size: 32px;
+}
